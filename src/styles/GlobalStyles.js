@@ -1,13 +1,7 @@
-import React from 'react';
-
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   *, *:before, *:after {
-    ${'' /* box-sizing: border-box; */}
-    ${
-      '' /* font-family: Futura, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, */
-    }
     font-family: 'Source Code Pro'
 
   }
