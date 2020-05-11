@@ -3,7 +3,13 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import DarkToggle from './DarkToggle';
-import { Facebook, Github, Mail, Book, Hexagon } from 'react-feather';
+import {
+  // Facebook,
+  // GitHub,
+  // Mail,
+  Book,
+  Hexagon
+} from 'react-feather';
 
 const Sidebar = () => {
   const menuEntries = [
@@ -19,23 +25,23 @@ const Sidebar = () => {
     },
   ];
 
-  const socialLinks = [
-    {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/daniel.guldberg.aaes',
-      icon: Facebook,
-    },
-    {
-      name: 'Github',
-      link: 'https://github.com/notaduck',
-      icon: Github,
-    },
-    {
-      name: 'Mail',
-      link: 'mailto:guldberg72@gmail.com?Subject=Hello%20again',
-      icon: Mail,
-    },
-  ];
+  // const socialLinks = [
+  //   {
+  //     name: 'Facebook',
+  //     link: 'https://www.facebook.com/daniel.guldberg.aaes',
+  //     icon: Facebook,
+  //   },
+  //   {
+  //     name: 'Github',
+  //     link: 'https://github.com/notaduck',
+  //     icon: GitHub,
+  //   },
+  //   {
+  //     name: 'Mail',
+  //     link: 'mailto:guldberg72@gmail.com?Subject=Hello%20again',
+  //     icon: Mail,
+  //   },
+  // ];
 
   return (
     <SidebarWrapper>
